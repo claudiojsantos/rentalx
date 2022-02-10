@@ -5,7 +5,7 @@
   "author": "Cláudio Santos <claudiosantos@sistnet.com.br>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-noe-dev src/server.ts"
+    "dev": "ts-node-dev src/server.ts"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.11.0",
-    "eslint-config-airbnb-base": "^15.0.0"
+    "eslint-config-airbnb-base": "^15.0.0",
+    "express": "^4.17.2"
   }
 }
