@@ -1,0 +1,7 @@
+{
+  "name": "rentalx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Cláudio Santos <claudiosantos@sistnet.com.br>",
+  "license": "MIT"
+}
