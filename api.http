@@ -1,0 +1,14 @@
+@baseUrl = http://localhost:3333
+@contentType = application/json
+
+###
+GET {{baseUrl}}/
+
+###
+POST {{baseUrl}}/categories HTTP/1.1
+content-type: {{contentType}}
+
+{
+  "name": "SUV",
+  "description": "SUV"
+}
